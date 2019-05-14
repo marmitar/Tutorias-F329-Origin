@@ -1,4 +1,6 @@
+.vscode/
 main.pdf
+
 *.aux*
 *.bbl*
 *.bcf*
@@ -13,6 +15,7 @@ main.pdf
 *.out*
 *.run*
 *.toc*
-*.gz*
-.vscode/
+
+*.gz
+*.zip
 
