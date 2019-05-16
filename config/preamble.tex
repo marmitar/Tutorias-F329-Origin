@@ -5,21 +5,13 @@
 \usepackage{xcolor}
 \definecolor{vermelho}{RGB}{224,25,26}
 
-% fontes de texto e ambiente matemático
-\usepackage{avant}
-\usepackage{mathptmx}
-
-% pacotes de configuração
-\usepackage{pacotes/headers}
-\usepackage[corlink=vermelho]{pacotes/fontes}
-\usepackage[cor=vermelho]{pacotes/ambientes}
-\usepackage{pacotes/margens}
-\usepackage[cor=vermelho]{pacotes/secoes}
-\usepackage[logo=logo.png]{pacotes/titulo}
+% pacote de configuração
+\usepackage[
+    nome = Origin,
+    cor  = vermelho,
+    logo = logo.png
+]{pacotes/tutorial}
 
 % pacotes extras
 \usepackage{caption, subcaption, pdfpages, wrapfig}
 \usepackage{circuitikz, graphics, float}
-
-% começa a seção no `0`
-\setcounter{section}{-1}
