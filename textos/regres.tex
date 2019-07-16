@@ -1,13 +1,13 @@
 É muito comum aparecer algum tipo de relação linear entre os dados. Nesse tipo de relação costuma-se aplicar técnicas de regressão, normalmente mínimos quadrados, para encontrar a melhor reta que representa esses dados.
 
-Pelo alinhamento dos pontos da seção \nameref{sec:reta} e pela equação teórica \ref{eq:resist}, fica clara a possibilidade de se aplicar uma regressão linear e, portanto, os dados continuarão os mesmos nessa seção.
+Pelo alinhamento dos pontos da seção \nameref{sec:reta} e pela equação teórica (\ref{eq:resist}), fica clara a possibilidade de se aplicar uma regressão linear e, portanto, os dados continuarão os mesmos nessa seção.
 
 
 \subsection{Configurações da Regressão}
 
     A regressão normalmente é feita pelas opções \textbf{Analysis: Fitting: Fit Linear}. Isso abre a janela de opções (figura \ref{fig:regres:opt}). Quando terminada a regressão, aparecerá uma janela perguntando para mudar de aba, mas por enquanto é melhor continuar nesta aba.
 
-    Existem outras formas de regressão além da linear, mas a linear é o bastante para resolver todos os casos da disciplinas.
+    Existem outras formas de regressão além da linear, mas essa já é o bastante para resolver todos os casos da disciplina.
 
     \begin{figure}[htbp]
         \centering
@@ -33,7 +33,7 @@ Pelo alinhamento dos pontos da seção \nameref{sec:reta} e pela equação teór
 
 \subsection{Tabela dos Coeficientes}
 
-    Por padrão, os coeficientes da regressão aparecem na tabela como está na figura \ref{fig:regres:coefspadrao}. Ao acessar a tabela \texttt{Table1} na parte esquerda do programa, é possível modificar essa tabela. Após a modificação, é importante apertar \texttt{Update Table} para atualizar a visualização no gráfico.
+    Por padrão, os coeficientes da regressão aparecem em uma tabela como a da figura \ref{fig:regres:coefspadrao}. Ao acessar a tabela \texttt{Table1} na parte esquerda do programa, é possível modificar essa tabela. Após a modificação, é importante apertar \texttt{Update Table} para atualizar a visualização no gráfico.
 
     \begin{figure}[htbp]
         \centering
@@ -58,8 +58,6 @@ Pelo alinhamento dos pontos da seção \nameref{sec:reta} e pela equação teór
 
 
 \subsection{Formatação dos Coeficientes}
-
-    Por padrão, os coeficientes da regressão aparecem na tabela como está na figura \ref{fig:regres:coefspadrao}. Ao acessar a aba \texttt{Table1} na parte esquerda do programa, é possível modificar essa tabela.
 
     Na figura \ref{fig:regres:renome2}, aparece o padrão que será seguido neste tutorial para essa tabela de coeficientes. As dimensões da tabela (figura \ref{fig:regres:tamanhos}), que mudam para cada caso, não seguirão nenhum padrão aqui.
 
@@ -171,4 +169,4 @@ Pelo alinhamento dos pontos da seção \nameref{sec:reta} e pela equação teór
         \label{fig:regres:final}
     \end{figure}
 
-    Observando o resultado na figura \ref{fig:regres:final}, a nova regressão com os pontos ignorados obteve uma redução significativa na incerteza dos coeficientes. Isso indica que a remoção de \textit{outliers} é um passo importante na medição, mas deve ser feito com cuidado. A retirada de pontos válidos para a regressão pode reduzir não só a exatidão da medida, mas até mesmo a precisão, pela maneira como o cálculo da regressão é feito.
+    Observando o resultado na figura \ref{fig:regres:final}, a nova regressão com os pontos ignorados obteve uma redução significativa na incerteza dos coeficientes. Isso indica que a remoção de \textit{outliers} é um passo importante na medição, mas deve ser feito com cuidado. A retirada de pontos válidos para a regressão pode reduzir ambas a precisão e a exatidão dos resultados, pela maneira como o cálculo da regressão é feito.
